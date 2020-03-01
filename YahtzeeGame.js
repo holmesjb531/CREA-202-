@@ -145,12 +145,14 @@ function currentScore(player){
 }
 
 
-console.log(`Today's Yahtzee match-up is: ${playerOne} vs. ${playerTwo}`);
+
 
 
 function fullGame() {
 	
-	for(let i = 1; i <- 10; i++){
+	console.log(`Today's Yahtzee match-up is: ${playerOne} vs. ${playerTwo}`);
+	
+	for(let i = 1; i <= 10; i++){
 
 		console.log("========== Round " + i + " ==========");
 		console.log();
